@@ -1,0 +1,21 @@
+<!-- 185 C Section 3 -->
+<!-- Project LBTask -->
+<!-- Written By Nakul Natu(007224360) -->
+<!-- Tarun Ramaswamy(007475208) -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:padding="3dp"
+              >
+    <ImageView android:id="@+id/image"
+              android:layout_width="wrap_content"
+              android:layout_height="fill_parent"
+              android:layout_marginRight="10dp"
+              />
+    <TextView android:id="@+id/text"
+              android:layout_width="wrap_content"
+              android:layout_height="fill_parent"
+              android:textColor="#000"
+              />
+</LinearLayout>

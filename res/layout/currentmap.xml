@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 185 C Section 3 -->
+<!-- Project LBTask -->
+<!-- Written By Nakul Natu(007224360) -->
+<!-- Tarun Ramaswamy(007475208) -->
+<RelativeLayout android:id="@+id/RelativeLayout01"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<com.google.android.maps.MapView
+		android:id="@+id/mapview" android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:clickable="true"
+		android:apiKey="0n16Tyf_vc9ru8vlnTVNdvpcUgd1Z8Ch7tXrWxw"
+		android:layout_above="@+id/Toolbar_CurrentMap" />
+	<LinearLayout android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true" android:layout_width="fill_parent"
+		android:background="#CCC" android:id="@+id/Toolbar_CurrentMap">
+		<Button android:id="@+id/Button_CurrentList" android:text="Current Tasks"
+			android:layout_height="fill_parent" android:layout_width="160dip"></Button>
+		<Button android:id="@+id/Button_MapMainTask" android:text="All Tasks"
+			android:layout_height="fill_parent" android:layout_width="160dip"></Button>
+	</LinearLayout>
+</RelativeLayout>

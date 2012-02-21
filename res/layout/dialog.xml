@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 185 C Section 3 -->
+<!-- Project LBTask -->
+<!-- Written By Nakul Natu(007224360) -->
+<!-- Tarun Ramaswamy(007475208) -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<ScrollView android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/Scroll_Dialog"><RelativeLayout android:layout_width="wrap_content" android:id="@+id/RelativeLayout01" android:layout_height="wrap_content"><ImageView android:id="@+id/Image_Photo" android:layout_height="100dip" android:layout_width="100dip" android:layout_marginLeft="30dip" /><TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Rating" android:id="@+id/Text_Rating" android:layout_toRightOf="@+id/Image_Photo" android:layout_marginLeft="20dip"></TextView><ImageView android:layout_below="@+id/Text_Rating" android:id="@+id/Image_Rating" android:layout_height="10dip" android:layout_width="50dip" android:layout_toRightOf="@+id/Image_Photo" android:layout_marginLeft="20dip" android:layout_marginTop="10dip"></ImageView><TextView android:id="@+id/Text_Address" android:layout_marginTop="10dip" android:layout_below="@+id/Image_Rating" android:layout_width="fill_parent" android:layout_toRightOf="@+id/Image_Photo" android:layout_marginLeft="20dip" android:layout_height="50dip"></TextView><TextView android:layout_centerHorizontal="true" android:layout_width="wrap_content" android:id="@+id/Text_Distance" android:layout_height="30dip" android:layout_marginTop="10dip" android:layout_below="@+id/Image_Photo"></TextView></RelativeLayout></ScrollView><Button android:layout_centerHorizontal="true" android:layout_height="wrap_content" android:text="Ok" android:layout_width="fill_parent" android:id="@+id/Button_Ok" android:layout_below="@+id/Scroll_Dialog"></Button>
+	
+	
+	
+	
+	
+
+
+</RelativeLayout>

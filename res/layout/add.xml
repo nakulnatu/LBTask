@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 185 C Section 3 -->
+<!-- Project LBTask -->
+<!-- Written By Nakul Natu(007224360) -->
+<!-- Tarun Ramaswamy(007475208) -->
+<RelativeLayout android:layout_width="fill_parent"
+	android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/Relative_Add">
+	<Button android:layout_height="fill_parent"
+		android:layout_width="fill_parent" android:layout_x="0dip"
+		android:layout_y="0dip" android:visibility="visible"
+		android:background="#ff000000" android:id="@+id/Button_Background1"></Button>
+	<ScrollView android:layout_above="@+id/Toolbar_Add"
+		android:layout_alignParentRight="true" android:layout_height="fill_parent"
+		android:layout_width="fill_parent" android:id="@+id/Scroll_Add">
+		<RelativeLayout android:id="@+id/RelativeLayout01"
+			android:layout_height="fill_parent" android:layout_width="fill_parent">
+			<TextView android:layout_height="wrap_content"
+				android:layout_width="wrap_content" android:id="@+id/Label_Name"
+				android:layout_marginTop="30dip" android:layout_marginLeft="55dip"
+				android:text="Name*"></TextView>
+			<EditText android:layout_height="wrap_content"
+				android:layout_width="wrap_content" android:id="@+id/Text_Name"
+				android:layout_toRightOf="@+id/Label_Name" android:width="190dip"
+				android:layout_marginTop="15dip"></EditText>
+			<TextView android:layout_height="wrap_content"
+				android:layout_width="wrap_content" android:id="@+id/Label_Location"
+				android:layout_below="@+id/Label_Name" android:layout_marginLeft="40dip"
+				android:text="Location*" android:layout_marginTop="60dip"></TextView>
+			<EditText android:layout_height="wrap_content"
+				android:layout_width="wrap_content" android:id="@+id/Text_Location"
+				android:layout_toRightOf="@+id/Label_Location" android:layout_below="@+id/Text_Name"
+				android:width="190dip" android:layout_marginTop="30dip"></EditText>
+			<TextView android:layout_height="wrap_content"
+				android:layout_width="wrap_content" android:id="@+id/Label_Description"
+				android:layout_marginLeft="20dip" android:text="Description*"
+				android:layout_marginTop="60dip" android:layout_below="@+id/Label_Location"></TextView>
+			<EditText android:layout_toRightOf="@+id/Label_Description"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:id="@+id/Text_Description" android:width="190dip"
+				android:layout_marginTop="30dip" android:layout_below="@+id/Text_Location"></EditText>
+			<TextView android:layout_height="wrap_content"
+				android:layout_width="wrap_content" android:text="Date*" android:id="@+id/Label_Date"
+				android:layout_below="@+id/Label_Description"
+				android:layout_marginTop="60dip" android:layout_marginLeft="65dip"></TextView>
+			<EditText android:id="@+id/Text_Date"
+				android:layout_toRightOf="@+id/Label_Date" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:layout_below="@+id/Text_Description"
+				android:layout_marginTop="30dip" android:width="190dip"></EditText>
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:id="@+id/Label_Time"
+				android:text="Time*" android:layout_marginTop="60dip"
+				android:layout_below="@+id/Label_Date" android:layout_marginLeft="65dip"></TextView>
+			<EditText android:id="@+id/Text_Time"
+				android:layout_toRightOf="@+id/Label_Time" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:layout_below="@+id/Text_Date"
+				android:layout_marginTop="30dip" android:width="190dip"></EditText>
+		</RelativeLayout>
+	</ScrollView>
+	<LinearLayout android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true" android:layout_width="fill_parent"
+		android:background="#CCC" android:id="@+id/Toolbar_Add">
+		<Button android:id="@+id/Button_Save" android:text="Save"
+			android:layout_height="fill_parent" android:layout_width="106dip"></Button>
+		<Button android:id="@+id/Button_Clear" android:text="Clear"
+			android:layout_height="fill_parent" android:layout_width="107dip"></Button>
+		<Button android:id="@+id/Button_Discard" android:text="Discard"
+			android:layout_height="50dip" android:layout_width="107dip"></Button>
+	</LinearLayout>
+</RelativeLayout>

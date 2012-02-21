@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 185 C Section 3 -->
+<!-- Project LBTask -->
+<!-- Written By Nakul Natu(007224360) -->
+<!-- Tarun Ramaswamy(007475208) -->
+<LinearLayout android:layout_width="fill_parent"
+	android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/Linear_Flipper">
+	<ViewFlipper android:id="@+id/ViewFlipper01"
+		android:layout_width="fill_parent" android:layout_height="fill_parent">
+		<include android:id="@+id/firstlayout" layout="@layout/currentlocation" />
+		<include android:id="@+id/secondlayout" layout="@layout/currentmap" />
+		<include android:id="@+id/thirdlayout" layout="@layout/main" />
+		<include android:id="@+id/fourthlayout" layout="@layout/add" />
+	</ViewFlipper>
+</LinearLayout>

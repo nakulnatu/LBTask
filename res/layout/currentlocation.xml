@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 185 C Section 3 -->
+<!-- Project LBTask -->
+<!-- Written By Nakul Natu(007224360) -->
+<!-- Tarun Ramaswamy(007475208) -->
+<RelativeLayout android:layout_width="fill_parent"
+	android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/Relative_CurrentLocation">
+	<TextView android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:layout_marginTop="10dip"
+		android:layout_centerInParent="true" android:id="@+id/LText_CurrentLocation"
+		android:layout_alignParentTop="true" android:text="Tasks In Proximity"></TextView>
+	<ListView android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:layout_below="@+id/LText_CurrentLocation"
+		android:layout_above="@+id/Toolbar_CurrentList" android:id="@+id/List_Current"></ListView>
+	<LinearLayout android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true" android:layout_width="fill_parent"
+		android:background="#CCC" android:id="@+id/Toolbar_CurrentList">
+		<Button android:id="@+id/BButton_MainList" android:text="All Tasks"
+			android:layout_height="fill_parent" android:layout_width="160dip"></Button>
+		<Button android:id="@+id/Button_AddTask" android:text="Add Task"
+			android:layout_height="fill_parent" android:layout_width="160dip"></Button>
+	</LinearLayout>
+</RelativeLayout>
